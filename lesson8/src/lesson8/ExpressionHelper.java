@@ -8,9 +8,10 @@ public class ExpressionHelper {
     private final String intermediateExpression = "^((\\d+\\.?\\d*)|(sqrt(?=$)|sqrt(\\d+\\.?\\d*)))([\\-\\+\\*\\/]" +
             "((\\d+\\.?\\d*)|(sqrt(?=$)|sqrt(\\d+\\.?\\d*))))*([\\-\\+\\*\\/]?)$";
     private final String operatorAtEnd = "([\\-\\+\\*\\/])([\\-\\+\\*\\/])$";
-    private final String operators = "[\\-\\+\\*\\/]";
+
     private final String numbers = "\\d+\\.?\\d*";
     private final String functions = "sqrt(\\d+\\.?\\d*)";
+    private final String operators = "[\\-\\+\\*\\/]";
 
     private final Pattern patternFull;
     private final Pattern patternInter;

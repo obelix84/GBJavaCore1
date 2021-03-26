@@ -31,7 +31,7 @@ public class ButtonListener implements ActionListener {
                 double result = calc.calculate(stringBuilder.toString());
                 in.setText(String.valueOf(result));
             } else {
-                WarningDialog wdialog = new WarningDialog("Выражение некорректно!");
+                WarningDialog wd = new WarningDialog("Выражение некорректно!");
             }
 
         } else if (next.equals("sqrt")) {

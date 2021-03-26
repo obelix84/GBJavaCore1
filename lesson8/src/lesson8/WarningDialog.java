@@ -24,7 +24,7 @@ public class WarningDialog {
         dialog.add(new JLabel (message), BorderLayout.CENTER);
         dialog.add(b, BorderLayout.SOUTH);
 
-        dialog.setBounds(75, 75, 300, 200);
+        dialog.setBounds(80, 75, 300, 200);
         dialog.setVisible(true);
     }
 }

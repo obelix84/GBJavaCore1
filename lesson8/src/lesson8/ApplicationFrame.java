@@ -87,7 +87,7 @@ public class ApplicationFrame extends JFrame {
 
     private JMenuBar createMenuBar() {
         JMenuBar menuBar = new JMenuBar();
-        JMenu menu = menuBar.add(new JMenu("Калькулятор"));
+        JMenu menu = menuBar.add(new JMenu("Калькулятор ver1.0"));
         menu.add(new JMenuItem("О программе")).addActionListener(new MenuButtonListener());
         menu.add(new JMenuItem("Выход")).addActionListener(new MenuButtonListener());
         return menuBar;

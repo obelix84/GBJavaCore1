@@ -9,7 +9,7 @@ public class MenuButtonListener implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         JMenuItem menuItem = (JMenuItem) e.getSource();
         if (menuItem.getText().equals("О программе")) {
-            WarningDialog wdialog = new WarningDialog("Калькулятор версия 1.0");
+            WarningDialog wdialog = new WarningDialog("Калькулятор простая версия 1.0");
         } else {
             System.exit(1);
         }
